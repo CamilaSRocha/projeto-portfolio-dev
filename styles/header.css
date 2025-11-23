@@ -1,0 +1,30 @@
+header {
+    max-width: 680px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px 343px 80px;
+}
+
+.subtitle {
+    font: var(--subtitle);
+    color: var(--gray-200);
+
+    span {
+        color: var(--principal-red);
+    }
+}
+
+.title-lg {
+    font: var(--title-lg);
+    color: var(--gray-100);
+}
+
+.text-sm {
+    font: var(--text-sm);
+    color: var(--gray-300);
+}
+
+

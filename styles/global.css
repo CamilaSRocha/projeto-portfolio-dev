@@ -31,3 +31,17 @@
     --text-md: 400 16px/140% var(--font-family-maven);
     --text-sm: 400 14px/140% var(--font-family-maven);
 }
+
+body {
+    align-items: center;
+    background-image: inherit;
+    background-image: url(/assets/Background_Intro.png);
+    background-size: cover;
+}
+
+#first-page {
+    
+    width: 100%;
+    height: 100%;
+}
+
