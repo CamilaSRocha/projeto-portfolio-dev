@@ -34,29 +34,12 @@
 
 body {
     align-items: center;
-    background-image: inherit;
-    background-image: url(/assets/Background_Intro.png);
-    background-size: cover;
-}
-
-#first-page {
+    background-color: var(--gray-500);
     
-    width: 100%;
-    height: 100%;
 }
 
-.red path {
-    fill: var(--principal-red);
-}
-
-.blue path {
-    fill: var(--principal-blue);
-}
-
-.yellow path {
-    fill: var(--principal-yellow);
-}
-
-.green path {
-    fill: var(--principal-green);
+#caret-double-down {
+    display: flex;
+    justify-content: center;
+    margin-block: 94px 57px;
 }

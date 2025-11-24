@@ -1,4 +1,12 @@
 header {
+    background-image: url(/assets/Background_Intro.png);
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+}
+
+#profile {
     max-width: 680px;
     margin: auto;
 
@@ -6,6 +14,8 @@ header {
     flex-direction: column;
     align-items: center;
     margin: 120px auto 80px;
+
+    
 }
 
 #avatar {
@@ -30,5 +40,37 @@ header {
     font: var(--text-sm);
     color: var(--gray-300);
 }
+
+.occupation {
+    margin-block: 8px 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 16px;
+
+    .svg-nav {
+        vertical-align: middle;
+        width: 24px;
+        height: 24px;
+
+    }
+
+    li {
+        font: var(--text-md);
+        color: var(--gray-200);
+        list-style: none;
+        
+        background-color: var(--gray-400);
+        border-radius: 30px;
+
+        padding: 9px 16px;       
+        
+    }
+}
+
 
 

@@ -1,0 +1,19 @@
+.red path {
+    fill: var(--principal-red);
+}
+
+.blue path {
+    fill: var(--principal-blue);
+}
+
+.yellow path {
+    fill: var(--principal-yellow);
+}
+
+.green path {
+    fill: var(--principal-green);
+}
+
+.gray-300 path {
+    fill: var(--gray-300);
+}
