@@ -5,7 +5,11 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 120px 343px 80px;
+    margin: 120px auto 80px;
+}
+
+#avatar {
+    margin-bottom: 56px;
 }
 
 .subtitle {
