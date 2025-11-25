@@ -35,7 +35,7 @@
 body {
     align-items: center;
     background-image: url(/assets/Background_Intro.png);
-    background-size: cover;
+    background-size: contain;
 }
 
 .container {
@@ -50,6 +50,7 @@ body {
     margin-block: 94px 57px;
 }
 
-#second-page {
+main {
+    background: scroll;
     background-color: var(--gray-500);
 }
