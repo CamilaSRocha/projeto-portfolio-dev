@@ -11,3 +11,30 @@ main {
         margin-bottom: 56px;
     }
 }
+
+#second-page {
+    max-width: 1040px;
+    margin-inline: auto;
+    margin-bottom: 144px;
+
+    .card {
+        border-radius: 8px;
+        background-color: var(--gray-400);
+
+        img {
+            object-fit: cover;
+            margin: 12px 12px 24px;
+            width: 306px;
+
+            border-radius: 8px;
+        }
+
+        figcaption {
+            margin-inline: 12px;
+
+            p {
+                margin-block: 8px 17px;
+            }
+        }
+    }
+}
