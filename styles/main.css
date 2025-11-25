@@ -1,0 +1,13 @@
+main {
+    .subtitle {
+        color: var(--principal-red);
+
+        margin-block: 72px 8px;
+    }
+
+    .title-md {
+        color: var(--gray-100);
+
+        margin-bottom: 56px;
+    }
+}

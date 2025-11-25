@@ -1,44 +1,33 @@
 header {
-    background-image: url(/assets/Background_Intro.png);
-    background-size: cover;
-
     width: 100%;
     height: 100%;
+    
+    .subtitle {
+        color: var(--gray-200);
+        
+        span {
+            color: var(--principal-red);
+        }
+    }
+
+    .title-lg {
+        color: var(--gray-100);
+    }
+    
+    .text-sm {
+        color: var(--gray-300);
+    }
 }
 
 #profile {
     max-width: 680px;
     margin: auto;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     margin: 120px auto 80px;
-
-    
 }
 
 #avatar {
     margin-bottom: 56px;
-}
-
-.subtitle {
-    font: var(--subtitle);
-    color: var(--gray-200);
-
-    span {
-        color: var(--principal-red);
-    }
-}
-
-.title-lg {
-    font: var(--title-lg);
-    color: var(--gray-100);
-}
-
-.text-sm {
-    font: var(--text-sm);
-    color: var(--gray-300);
 }
 
 .occupation {
