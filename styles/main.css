@@ -1,4 +1,7 @@
 main {
+    background: scroll;
+    background-color: var(--gray-500);
+
     .subtitle {
         color: var(--principal-red);
 
@@ -12,7 +15,7 @@ main {
     }
 }
 
-#second-page {
+#projects {
     max-width: 1040px;
     margin-inline: auto;
     margin-bottom: 144px;
@@ -29,12 +32,42 @@ main {
             border-radius: 8px;
         }
 
-        figcaption {
-            margin-inline: 12px;
-
-            p {
-                margin-block: 8px 17px;
-            }
+    }
+    figcaption {
+        margin-inline: 12px;
+    
+        p {
+            margin-block: 8px 17px;
         }
+    }
+}
+
+
+#services {
+    margin-inline: auto;
+    padding: 120px;
+
+    background-color: var(--gray-600);
+
+    .card {
+        border: 2px solid var(--gray-500);
+        border-radius: 12px;
+    }
+
+    .svg {
+        width: 48px;
+        height: 48px;
+        margin: 20px;
+    }
+
+    figcaption {
+        margin-inline: 20px;
+        margin-bottom: 20px;
+    }
+
+    .grid {
+        max-width: 888px;
+        margin-inline: auto;
+        
     }
 }

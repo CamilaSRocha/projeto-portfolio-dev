@@ -49,8 +49,3 @@ body {
     justify-content: center;
     margin-block: 94px 57px;
 }
-
-main {
-    background: scroll;
-    background-color: var(--gray-500);
-}

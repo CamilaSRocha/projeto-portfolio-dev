@@ -24,6 +24,10 @@
     fill: var(--principal-green);
 }
 
+.purple path {
+    fill: var(--principal-purple);
+}
+
 .gray-100 {
     fill: var(--gray-100);
     color: var(--gray-100);
