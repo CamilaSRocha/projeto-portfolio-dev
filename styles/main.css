@@ -38,6 +38,10 @@ main {
     }
 }
 
+.card:hover {
+    border: 2px solid var(--gray-300);
+}
+    
 
 #services {
     margin-inline: auto;
@@ -123,4 +127,8 @@ main {
             
         }
     }
+}
+
+a:hover {
+    border: 1px solid var(--principal-blue);
 }
