@@ -3,15 +3,11 @@ main {
     background-color: var(--gray-500);
 
     .subtitle {
-        color: var(--principal-red);
-
         margin-block: 72px 8px;
     }
 
     .title-md {
         color: var(--gray-100);
-
-        margin-bottom: 56px;
     }
 }
 
@@ -69,5 +65,62 @@ main {
         max-width: 888px;
         margin-inline: auto;
         
+    }
+}
+
+#contact {
+    padding-bottom: 200px;
+    .container {
+        .text-md {
+            margin-top: 8px;
+        }
+    }
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        max-width: 400px;
+        margin-inline: auto;
+
+        gap: 16px;
+    }
+    
+    a {
+        background-color: var(--gray-400);
+        border-radius: 8px;
+        
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;        
+        
+        padding: 20px;
+        
+        text-decoration: none;
+        
+        
+        .logo {
+            width: 28px;
+            height: 28px;
+            object-fit: cover;
+            margin-right: 12px;
+        }
+
+        .logo-link {
+            display: flex;
+            justify-content: center;
+            
+
+        }
+    
+        .arrow {
+            width: 20px;
+            object-fit: cover;
+
+            display: flex;
+            justify-content:space-around;
+            
+        }
     }
 }

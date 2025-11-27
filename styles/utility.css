@@ -5,7 +5,6 @@
 .grid-cols-3 {
     gap: 24px;
     grid-template-columns: repeat(3, auto);
-
 }
 
 .red path {
@@ -26,6 +25,26 @@
 
 .purple path {
     fill: var(--principal-purple);
+}
+
+.red {
+    color: var(--principal-red);
+}
+
+.blue {
+    color: var(--principal-blue);
+}
+
+.yellow {
+    color: var(--principal-yellow);
+}
+
+.green {
+    color: var(--principal-green);
+}
+
+.purple {
+    color: var(--principal-purple);
 }
 
 .gray-100 {
